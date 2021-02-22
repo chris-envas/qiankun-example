@@ -1,9 +1,10 @@
 .DS_Store
 node_modules
-/child/qiankun-vue/
-/child/qiankun-react/
+/child/qiankun-vue/node_modules
+/child/qiankun-react/node_modules
 /dist
-
+/child/qiankun-vue/dist
+/child/qiankun-react/dist
 
 # local env files
 .env.local
