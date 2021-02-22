@@ -1,10 +1,16 @@
 <template>
   <div id="app">
+    <header>I am a header</header>
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <el-menu :router="true" mode="horizontal">
+        <el-menu-item index="/">Home</el-menu-item>
+        <el-menu-item index="/vue">Vue</el-menu-item>
+        <el-menu-item index="/react">React</el-menu-item>
+      </el-menu>
     </div>
-    <router-view/>
+    <router-view />
+    <div id="vue"></div>
+    <div id="react"></div>
   </div>
 </template>
 
